@@ -1,0 +1,22 @@
+.result {
+
+	box-sizing: border-box;
+
+	&__item {
+		list-style: none;
+		border-radius: 3px;
+		padding: 10px 5px;
+		cursor: pointer;
+		background-color: #fff;
+		transition: 0.6s background ease;
+
+		&:hover {
+			background-color: #efefef;
+		}
+
+		&--exists {
+			background-color: #efefef;
+			cursor: default;
+		}
+	}
+}
