@@ -1,1 +1,2 @@
-//import './swiper/swiper.js'
+import './app/app.js';
+import './remove/remove.js';
