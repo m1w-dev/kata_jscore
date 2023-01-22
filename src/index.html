@@ -8,15 +8,15 @@
 <body class="content">
 	<div class="content__item app">
 		<h1 class="app__header">Поиск репозиториев GH по ключевым словам</h1>
-		<div class="app__form">
-			<input name="search" placeholder="Начните писать название репо...">
+		
+		<div class="app__autocomplete">
+			<div class="autocomplete">
+				<input type="text" class="autocomplete__input" name="search" placeholder="Начните писать название репо...">
+				<ul class="autocomplete__result result"></ul>
+			</div>
 		</div>
-		<div class="app__result">
-			dynamic result
-		</div>
-		<div class="app__saves">
-			user saves
-		</div>
+		
+		<ul class="app__saves saves"></ul>
 	</div>
 
 </body>
